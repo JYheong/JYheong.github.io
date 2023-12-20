@@ -10,3 +10,8 @@ main:
     url: /collection-archive/
   - title: "Sitemap"
     url: /sitemap/
+# 참고문서
+# https://apit.dev/jekyll/minimal-mistakes-side-bar/
+docs: 
+  - title: "Sidebar"
+  - title: "second"
