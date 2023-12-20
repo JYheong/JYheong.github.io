@@ -17,7 +17,7 @@ docs:
   - title: "Sidebar"
     children:
       - title: "one"
-        url: /one
+        url: "/one"
   - title: "Second"
     children:
       - title: "two"
