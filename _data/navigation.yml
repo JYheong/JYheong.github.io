@@ -12,6 +12,13 @@ main:
     url: /sitemap/
 # 참고문서
 # https://apit.dev/jekyll/minimal-mistakes-side-bar/
+# https://sunghwan7330.github.io/blog/blog_sidebar/
 docs: 
   - title: "Sidebar"
+    childrenl
+      - title: "one"
+        url: /one
   - title: "second"
+    children
+      - title: "two"
+        url: /two
