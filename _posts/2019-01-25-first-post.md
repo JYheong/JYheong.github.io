@@ -1,12 +1,12 @@
-# Front Matter
 ---
-title: "Jekyll 첫번째 글"
-categories: blog
-tags: jekyll
-# 목차
-toc: true  
-toc_sticky: true 
+layout: single #post
+title:  "Test Index"
+search: false
+categories: 
+  - Jekyll
+last_modified_at: 2018-02-19T08:06:00-05:00
+date: 2023-12-20T12:55:00
+excerpt: "포스트의 간략한 요약"
 ---
 
-
-Hey!
+my first git page!
