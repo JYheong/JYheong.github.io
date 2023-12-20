@@ -8,3 +8,5 @@ published: true
 ---
 
 my first git page!
+
+docs post page :)
