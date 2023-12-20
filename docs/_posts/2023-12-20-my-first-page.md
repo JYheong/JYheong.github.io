@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "Test Index"
 search: false
 categories: 
