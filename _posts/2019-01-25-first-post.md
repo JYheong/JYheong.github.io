@@ -1,5 +1,5 @@
 ---
-layout: single #post
+layout: post #single
 title:  "Test Index"
 search: false
 last_modified_at: 2018-02-19T08:06:00-05:00
