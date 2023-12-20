@@ -15,10 +15,10 @@ main:
 # https://sunghwan7330.github.io/blog/blog_sidebar/
 docs: 
   - title: "Sidebar"
-    childrenl
+    children:
       - title: "one"
         url: /one
-  - title: "second"
-    children
+  - title: "Second"
+    children:
       - title: "two"
         url: /two
