@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single #post
 title:  "Test Index"
 search: false
 categories: 
