@@ -1,7 +1,17 @@
 ---
-title: "blog"
-layout: archive
+#title: "blog"
+#layout: archive
+
 permalink: /one
+
+layout: post #single
+title:  "side one"
+ 
+last_modified_at: 2020-05-25
+date: 2020-05-25
+
+published: true
+
 # sidebar:
 #    nav: "sidebar-category"
 ---
