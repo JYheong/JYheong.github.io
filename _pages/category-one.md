@@ -2,7 +2,7 @@
 #title: "blog"
 #layout: archive
 
-permalink: /one
+# permalink: /one
 
 layout: post #single
 title:  "side one"
