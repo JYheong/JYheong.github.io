@@ -8,9 +8,9 @@ date: 2023-12-20 12:55:00
 published: true
 ---
 
-my first git page!
+첫번째 페이지
 <br />
-in root/post/
+위치: root/post/
 
 <div>
 줄바꿈
