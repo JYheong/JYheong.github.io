@@ -11,3 +11,15 @@ published: true
 my first git page!
 <br />
 in root/post/
+
+<div>
+줄바꿈
+</div>
+
+
+<div>
+줄바꿈
+</div>
+<div>
+줄바꿈
+</div>
