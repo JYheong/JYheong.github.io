@@ -16,8 +16,9 @@
     "url": "https://github.com/JYheong/JYheong.github.io/issues"
   },
   "homepage": "https://github.com/JYheong/JYheong.github.io#readme",
-  "description": "",
-  "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
+  "description": "-- command list --\r -- run command : pnpm exec eleventy\r -- local web server : pnpm exec eleventy --serve",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-navigation": "^1.0.4"
   }
 }
