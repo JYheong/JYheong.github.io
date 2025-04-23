@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build-ghpages": "npx @11ty/eleventy --pathprefix=/JYheong"
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/JYheong.github.io/"
   },
   "repository": {
     "type": "git",
