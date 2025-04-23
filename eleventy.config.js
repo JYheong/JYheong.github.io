@@ -32,6 +32,7 @@ module.exports = function (eleventyConfig) {
 	return {
 		dir: {
 			input: ".",
-		}
+		},
+		pathPrefix: "/JYheong.github.io/"
 	}
 };
