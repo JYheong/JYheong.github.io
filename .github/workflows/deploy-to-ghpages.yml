@@ -34,6 +34,10 @@ jobs:
           key: ${{ runner.os }}-eleventy-fetch-cache
 
       - run: npm install
+
+      - name: Fix Eleventy permissions
+      - run: chmod +x node_modules/.bin/eleventy
+      
       - run: npm run build-ghpages
 
       - name: Deploy
