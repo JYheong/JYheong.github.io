@@ -5,13 +5,33 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel="stylesheet" href="/styles/init.css">
+    <link rel="stylesheet" href="/styles/main.css">
 </head>
 <body>
     <header>
-        <h1>{{ title | default: "My Blog" }}</h1>
-    </header>
-    <main>
-        {{ content }}
+        <!-- <h1>{{ title | default: "My Blog" }}</h1> -->
+        <a href="https://jyheong.github.io/_site/">go to site</a>
+    </header>    
+
+    <main class="flex">
+        <section class="nav">
+            {{ collections.all | eleventyNavigation | eleventyNavigationToHtml }}
+        </section>
+
+        <section class="post-list">
+            {% for post in collections.post %}
+            <h2><a href="{{ post.url}}">{{ post.data.title }}</a></h2>
+            <!-- <p>{{ post.content }}</p> -->
+            {% endfor %}
+        </section>
     </main>
 </body>
 </html>
+
+
+
+
+
+
