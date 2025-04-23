@@ -1,6 +1,5 @@
 ---
-eleventyNavigation:
-  key: Home
+title: Home
 ---
 
 
