@@ -6,8 +6,8 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-    <link rel="stylesheet" href="./styles/init.css">
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="{{ '/styles/init.css' | url }}">
+    <link rel="stylesheet" href="{{ '/styles/main.css' | url }}">
 </head>
 <body>
     <header>
@@ -15,7 +15,6 @@
         <a href="https://jyheong.github.io/">go to site</a>
     </header>    
 
-    왜 안보이는건데
     <main class="flex">
         <section class="nav">
             {{ collections.all | eleventyNavigation | eleventyNavigationToHtml }}
@@ -23,7 +22,7 @@
 
         <section class="post-list">
             {% for post in collections.post %}
-            <h2><a href="{{ post.url}}">{{ post.data.title }}</a></h2>
+            <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
             <!-- <p>{{ post.content }}</p> -->
             {% endfor %}
         </section>
