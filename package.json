@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-		"build": "npx @11ty/eleventy",
-		"build-ghpages": "npx @11ty/eleventy --pathprefix=/JYheong.github.io/"
-	},
+    "build": "npx @11ty/eleventy",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/JYheong.github.io/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JYheong/JYheong.github.io.git"
@@ -21,5 +21,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-navigation": "^1.0.4"
+  },
+  "dependencies": {
+    "pnpm": "^10.10.0"
   }
 }
